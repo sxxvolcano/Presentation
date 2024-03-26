@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="present.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" type="image/x-icon" href="webb.png">
+<title>About Me</title>
+
+
+<header class="header">
+    <a href="#" button class="logo">Portfolio.</a>
+
+    <nav class="navbar">
+        <a href="present.html" style="--i:3;" >Presentation</a>
+        <a href="index.html" style="--i:1;" class="active">Home</a>
+        <a href="about.html" style="--i:2;" >About</a>
+        <a href="portfoli.html" style="--i:4;" >Portfolio</a>
+        <a href="contact.html" style="--i:5;" >Contact</a>
+    </nav>
+</header>
+
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .section img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .section .text {
+    max-width: 50%;
+  }
+
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+    .section {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .section img {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .section .text {
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="section">
+    <img src="andijan.JPG.webp" alt="Your Photo">
+    <div class="text">
+      <h2>Where I Was Born</h2>
+      <p>I stand before you today with a story—a story that begins at the very core of my existence. It starts in a place that holds the whispers of my past, the echoes of my beginnings. It's the place I call home, the place where my journey began—my birthplace.</p>
+    </div>
+  </div>
+  
+  <div class="section">
+    <div class="text">
+      <h2>My Favourite</h2>
+      <p>Beyond where I'm from, I find joy in movies and cartoons. They're like my favorite comfort blankets. Each one tells a cool story that sparks my imagination and makes me want to create my own adventures.</p>
+    </div>
+    <img src="netflix.avif" alt="Neflix Photo">
+  </div>
+  
+  <div class="section">
+    <img src="knu.jpg" alt="KNU Photo">
+    <div class="text">
+      <h2>My Goal at This University</h2>
+      <p>My aspiration at this university is to not only excel academically but to also become a catalyst for positive change. I aim to immerse myself in diverse experiences, leveraging every opportunity to expand my knowledge and hone my skills. With a relentless pursuit of excellence, I aspire to contribute meaningfully to the academic community and beyond. My goal is to emerge as a visionary leader, equipped with the wisdom and passion to make a significant impact on the world around me.</p>
+    </div>
+  </div>
+  
+</div>
+</body>
+</html>
